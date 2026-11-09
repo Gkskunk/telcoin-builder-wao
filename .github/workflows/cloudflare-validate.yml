@@ -1,0 +1,23 @@
+name: Validate Cloudflare site
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check static site files and JavaScript syntax
+        run: |
+          test -s public/index.html
+          test -s public/team.html
+          test -s public/team.js
+          test -s wrangler.jsonc
+          node --check public/team.js
+          echo "Validated source commit: $(git rev-parse HEAD)"
+      - name: Cloudflare bundle dry run - no publication
+        uses: cloudflare/wrangler-action@v4
+        with:
+          command: deploy --dry-run
