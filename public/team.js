@@ -1,3 +1,4 @@
+pyenv: cannot rehash: /Users/gregkerr/.pyenv/shims isn't writable
 "use strict";
 const KEY="telcoin-wao-team-v1",STATES=["Proposed","In progress","Review","Accepted"];
 const $=id=>document.getElementById(id);let tasks=[];

@@ -1,3 +1,4 @@
+pyenv: cannot rehash: /Users/gregkerr/.pyenv/shims isn't writable
 name: Validate Cloudflare site
 on:
   workflow_dispatch:

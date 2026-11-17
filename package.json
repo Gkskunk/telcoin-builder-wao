@@ -1,0 +1,2 @@
+pyenv: cannot rehash: /Users/gregkerr/.pyenv/shims isn't writable
+{"name":"telcoin-builder-wao","version":"0.2.0","private":true,"type":"module","engines":{"node":">=22 <23"},"scripts":{"dev":"node server/index.mjs","start":"node server/index.mjs","test":"node --test test/*.test.mjs"},"dependencies":{"express":"5.0.1","better-sqlite3":"11.7.0"}}

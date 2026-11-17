@@ -1,3 +1,4 @@
+pyenv: cannot rehash: /Users/gregkerr/.pyenv/shims isn't writable
 # Website scaffold
 
 Status: source scaffold only; not deployed or browser-tested.

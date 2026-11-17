@@ -1,3 +1,4 @@
+pyenv: cannot rehash: /Users/gregkerr/.pyenv/shims isn't writable
 # Team workspace prototype
 
 Open `public/team.html` alongside the existing homepage. This adds a standalone WAO planning board without changing existing files.

@@ -1,0 +1,7 @@
+pyenv: cannot rehash: /Users/gregkerr/.pyenv/shims isn't writable
+node_modules/
+.data/
+*.db
+*.db-shm
+*.db-wal
+.env

@@ -1,0 +1,38 @@
+pyenv: cannot rehash: /Users/gregkerr/.pyenv/shims isn't writable
+[
+  {
+    "title": "Telcoin Network developer hub",
+    "category": "development",
+    "url": "https://telcoin.network/developers-overview/",
+    "description": "Official entry point for developer paths, technical documentation, reference integrations, and application-layer governance.",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "title": "Telcoin Network documentation",
+    "category": "network",
+    "url": "https://docs.telcoin.network/index.html",
+    "description": "Technical reference starting point. Confirm current network endpoints, chain configuration, tooling, and support directly in the documentation.",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "title": "Network getting started",
+    "category": "development",
+    "url": "https://docs.telcoin.network/",
+    "description": "Official setup reference for researching a bounded development environment. This workspace does not execute network calls.",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "title": "Telcoin ecosystem governance",
+    "category": "governance",
+    "url": "https://telcoin.network/developers-overview/",
+    "description": "Official governance and ecosystem references. Review applicability and current program requirements at the source.",
+    "checkedAt": "2026-11-09"
+  },
+  {
+    "title": "Telcoin ecosystem application research",
+    "category": "rwa / eusd",
+    "url": "https://telcoin.network/developers-overview/",
+    "description": "Use the official developer hub to research programmable asset registries and eUSD application requirements. MVP use-case templates use synthetic data and do not represent supported live integrations.",
+    "checkedAt": "2026-11-09"
+  }
+]
